@@ -48,7 +48,7 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "anonymous")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Movie_files')
 
 # Others
-VERIFY = bool(environ.get('VERIFY', False))
+VERIFY = is_enabled((environ.get("VERIFY", "False")), False)
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'mplaylink.com')
 SHORTLINK_API = environ.get('SHORTLINK_API', '09aa271212a68057b9b038672a0e91968118e23a')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
