@@ -15,13 +15,13 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '23350252'))
 API_HASH = environ.get('API_HASH', '07f559176a34bf4e47dd18d28f575f52')
-BOT_TOKEN = environ.get('BOT_TOKEN', "6579900679:AAFVFw9R8TNPbeERkVX-zFOC8nhTHekMTAc")
+BOT_TOKEN = environ.get('BOT_TOKEN', "")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
-PICS = (environ.get('PICS', 'https://telegra.ph/file/bceca40c1a6c37a5f91ea.jpg')).split() #SAMPLE PIC
+PICS = (environ.get('PICS', 'https://telegra.ph/file/bceca40c1a6c37a5f91ea.jpg https://telegra.ph/file/fc7db84985f3c0c914f07.jpg https://telegra.ph/file/814e84a5e0f2bb0a051eb.jpg https://telegra.ph/file/8e983288f6e30284c2bc9.jpg https://telegra.ph/file/f1e9981510e7dca756dab.jpg https://telegra.ph/file/7a6a1fc9eeac12bf13589.jpg https://telegra.ph/file/59d5b13b9e1374b2764c7.jpg https://telegra.ph/file/5a04f05e6d019a247d4dd.jpg')).split() #SAMPLE PIC
 NOR_IMG = environ.get("NOR_IMG", "https://te.legra.ph/file/a27dc8fe434e6b846b0f8.jpg")
 MELCOW_VID = environ.get("MELCOW_VID", "https://t.me/")
 SPELL_IMG = environ.get("SPELL_IMG", "https://te.legra.ph/file/15c1ad448dfe472a5cbb8.jpg")
@@ -36,8 +36,8 @@ auth_channel = environ.get('AUTH_CHANNEL', '-1001918797443')
 auth_grp = environ.get('AUTH_GROUP')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
-support_chat_id = environ.get('SUPPORT_CHAT_ID', '-1001918797443')
-reqst_channel = environ.get('REQST_CHANNEL_ID', '-1001918797443')
+support_chat_id = environ.get('SUPPORT_CHAT_ID', '-1001914847585')
+reqst_channel = environ.get('REQST_CHANNEL_ID', '-1001984483087')
 REQST_CHANNEL = int(reqst_channel) if reqst_channel and id_pattern.search(reqst_channel) else None
 SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(support_chat_id) else None
 NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
@@ -49,18 +49,18 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Movie_files')
 
 # Others
 VERIFY = is_enabled((environ.get('VERIFY', "False")), False)
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'api.shareus.io')
-SHORTLINK_API = environ.get('SHORTLINK_API', 'dJY2xHc074eCI6gCqkV7LNVXntf1')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', '')
+SHORTLINK_API = environ.get('SHORTLINK_API', '')
 IS_SHORTLINK = is_enabled((environ.get('IS_SHORTLINK', "True")), True)
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
-MAX_B_TN = environ.get("MAX_B_TN", "5")
+MAX_B_TN = environ.get("MAX_B_TN", "12")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+hO1NRiiL6ZJiZjA1')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/kmzone2023')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/kmclub2023')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/LinkOpeningProcess/22')
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
-MSG_ALRT = environ.get('MSG_ALRT', 'Hello Nanbha and Nanbis ❤️')
+MSG_ALRT = environ.get('MSG_ALRT', 'How are u ❤️')
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001916712172'))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'kmzone2023')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
