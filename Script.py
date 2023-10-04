@@ -1,11 +1,11 @@
 class script(object):
-    START_TXT = """<b>Hᴇʟʟᴏ {}, I'm ✧ <a href=https://t.me/{}>{}</a>, & I Can Provide You Any Movies & Series 😇</b>"""
+    START_TXT = """<b>Hᴇʟʟᴏ {}, I'm ✧ <a href=https://t.me/{}>{}</a>, & I Can Provide You Any Movies & Series 😇. \n\n📌Just Join My Movie Group From Below Button & Request Any Movie</b>"""
 
     HELP_TXT = """<b>Hᴇʏ {}
 Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 
     ABOUT_TXT = """<b>⍟───[ MY ᴅᴇᴛᴀɪʟꜱ ]───⍟
-‣ ᴍʏ ɴᴀᴍᴇ : <a href=http://t.me/KMZoneMBot>Movie Bot 🇮🇳</a>
+‣ ᴍʏ ɴᴀᴍᴇ : <a href=http://t.me/KMZoneMBot>𝗔𝗻𝗼𝗻𝘆𝗺𝗼𝘂𝘀 𝗠𝗼𝘃𝗶𝗲𝘀 𝗕𝗼𝘁</a>
  ‣ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href='tg://settings'>ⁱᵗᶻ ᵐᵉ ᵗᵍ 🇮🇳</a> 
  ‣ ʟɪʙʀᴀʀʏ : <a href='https://docs.pyrogram.org/'>ᴘʏʀᴏɢʀᴀᴍ</a> 
  ‣ ʟᴀɴɢᴜᴀɢᴇ : <a href='https://www.python.org/download/releases/3.0/'>ᴘʏᴛʜᴏɴ 3</a> 
