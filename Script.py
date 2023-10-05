@@ -138,13 +138,19 @@ Nᴀᴍᴇ - {}"""
 
 ᴄʜᴇᴄᴋ ʏᴏᴜʀ sᴘᴇʟʟɪɴɢ ɪɴ ɢᴏᴏɢʟᴇ ᴀɴᴅ ᴛʀʏ ᴀɢᴀɪɴ 😃
 
-ᴍᴏᴠɪᴇ ʀᴇǫᴜᴇꜱᴛ ꜰᴏʀᴍᴀᴛ 👇
+🔹 Sᴇᴀʀᴄʜ Mᴏᴠɪᴇ Wɪᴛʜ Cᴏʀʀᴇᴄᴛ Sᴘᴇʟʟɪɴɢ :
+› King Of Kotha 2023 ✅
+› King Of Kotha ʜɪɴᴅɪ ✅
+› King Of Kotha ᴍᴏᴠɪᴇ ❌
+› King Of Kotha ʜɪɴᴅɪ ᴅᴜʙʙᴇᴅ..❌
 
-ᴇxᴀᴍᴘʟᴇ : Jailer or Jailer 2023 or Jailer 2023 Hindi
-
-ꜱᴇʀɪᴇꜱ ʀᴇǫᴜᴇꜱᴛ ꜰᴏʀᴍᴀᴛ 👇
-
-ᴇxᴀᴍᴘʟᴇ : Loki S01 or Loki S01E04 or Lucifer S03E24, Lucifer Season 1❌
+🔹Sᴇᴀʀᴄʜ Wᴇʙ Sᴇʀɪᴇs Iɴ ᴛʜɪs Fᴏʀᴍᴀᴛᴇ : 
+› Asur S01 ✅
+› Asur S01E01 ✅
+› Asur S01 ʜɪɴᴅɪ ✅
+› Asur S01 ʜɪɴᴅɪ ᴅᴜʙʙ. ❌
+› Asur sᴇᴀsᴏɴ 1 ❌
+› Asur ᴡᴇʙ sᴇʀɪᴇs ❌
 
 🚯 ᴅᴏɴᴛ ᴜꜱᴇ ➠ ':(!,./ season, Movie please)</b>"""
 
