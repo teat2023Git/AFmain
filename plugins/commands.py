@@ -862,7 +862,7 @@ async def requests(bot, message):
                     success = True
             else:
                 if len(content) < 3:
-                    await message.reply_text("<b>You must type about your request [Minimum 3 Characters]. Requests can't be empty.</b>")
+                    await message.reply_text("<b>𝐈𝐟 𝐘𝐨𝐮 𝐂𝐚𝐧 𝐍𝐨𝐭 𝐆𝐞𝐭 𝐘𝐨𝐮𝐫 𝐌𝐨𝐯𝐢𝐞 𝐉𝐮𝐬𝐭 𝐮𝐬𝐞 𝐓𝐡𝐢𝐬 𝐜𝐨𝐦𝐦𝐚𝐧𝐝: /request or /Request or #request or #Request 𝐭𝐡𝐞𝐧 𝐠𝐢𝐯𝐞 𝐚 𝐬𝐩𝐚𝐜𝐞 𝐭𝐡𝐞𝐧 𝐭𝐲𝐩𝐞 𝐲𝐨𝐮𝐫 𝐦𝐨𝐯𝐢𝐞 𝐧𝐚𝐦𝐞. \n\n𝑌𝑜𝑢 𝑚𝑢𝑠𝑡 𝑡𝑦𝑝𝑒 𝑎𝑏𝑜𝑢𝑡 𝑦𝑜𝑢𝑟 𝑟𝑒𝑞𝑢𝑒𝑠𝑡 [𝑀𝑖𝑛𝑖𝑚𝑢𝑚 3 𝐶ℎ𝑎𝑟𝑎𝑐𝑡𝑒𝑟𝑠]. 𝑅𝑒𝑞𝑢𝑒𝑠𝑡𝑠 𝑚𝑜𝑣𝑖𝑒 𝑐𝑎𝑛'𝑡 𝑏𝑒 𝑒𝑚𝑝𝑡𝑦.</b>")
             if len(content) < 3:
                 success = False
         except Exception as e:
@@ -897,7 +897,7 @@ async def requests(bot, message):
                     success = True
             else:
                 if len(content) < 3:
-                    await message.reply_text("<b>You must type about your request [Minimum 3 Characters]. Requests can't be empty.</b>")
+                    await message.reply_text("<b>𝐈𝐟 𝐘𝐨𝐮 𝐂𝐚𝐧 𝐍𝐨𝐭 𝐆𝐞𝐭 𝐘𝐨𝐮𝐫 𝐌𝐨𝐯𝐢𝐞 𝐉𝐮𝐬𝐭 𝐮𝐬𝐞 𝐓𝐡𝐢𝐬 𝐜𝐨𝐦𝐦𝐚𝐧𝐝: /request or /Request or #request or #Request 𝐭𝐡𝐞𝐧 𝐠𝐢𝐯𝐞 𝐚 𝐬𝐩𝐚𝐜𝐞 𝐭𝐡𝐞𝐧 𝐭𝐲𝐩𝐞 𝐲𝐨𝐮𝐫 𝐦𝐨𝐯𝐢𝐞 𝐧𝐚𝐦𝐞. \n\n𝑌𝑜𝑢 𝑚𝑢𝑠𝑡 𝑡𝑦𝑝𝑒 𝑎𝑏𝑜𝑢𝑡 𝑦𝑜𝑢𝑟 𝑟𝑒𝑞𝑢𝑒𝑠𝑡 [𝑀𝑖𝑛𝑖𝑚𝑢𝑚 3 𝐶ℎ𝑎𝑟𝑎𝑐𝑡𝑒𝑟𝑠]. 𝑅𝑒𝑞𝑢𝑒𝑠𝑡𝑠 𝑚𝑜𝑣𝑖𝑒 𝑐𝑎𝑛'𝑡 𝑏𝑒 𝑒𝑚𝑝𝑡𝑦.</b>")
             if len(content) < 3:
                 success = False
         except Exception as e:
