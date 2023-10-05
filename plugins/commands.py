@@ -26,8 +26,9 @@ async def start(client, message):
                     InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
                     InlineKeyboardButton('🤖𝐁𝐨𝐭𝐬 𝐔𝐩𝐝𝐚𝐭𝐞🤖', url='https://t.me/KMZoneOfficial'),
-                    InlineKeyboardButton('🌟𝗠𝗼𝘃𝗶𝗲𝘀 𝗚𝗿𝗼𝘂𝗽🌟', url='https://t.me/+7DcokFeX8Dk0N2Jl'),
                     InlineKeyboardButton('🔰𝐌𝐨𝐯𝐢𝐞𝐬 𝐂𝐡𝐚𝐧𝐧𝐞𝐥🔰', url='https://t.me/+ydrem2GK32k1ZTM1')
+                ],[
+                    InlineKeyboardButton('🌟𝗠𝗼𝘃𝗶𝗲𝘀 𝗥𝗲𝗾𝘂𝗲𝘀𝘁 𝗚𝗿𝗼𝘂𝗽🌟', url='https://t.me/+7DcokFeX8Dk0N2Jl')
                 ],[
                   InlineKeyboardButton('💋𝗔𝗱𝘂𝗹𝘁(𝟭𝟴+) 𝗠𝗼𝘃𝗶𝗲 & 𝗪𝗲𝗯𝘀𝗲𝗿𝗶𝗲𝘀 𝗖𝗵𝗮𝗻𝗻𝗲𝗹💋', url='https://t.me/+Ps2D3eRmT0BmNzY1')
                 ],[
@@ -49,8 +50,9 @@ async def start(client, message):
                     InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
                     InlineKeyboardButton('🤖𝐁𝐨𝐭𝐬 𝐔𝐩𝐝𝐚𝐭𝐞🤖', url='https://t.me/KMZoneOfficial'),
-                    InlineKeyboardButton('🌟𝗠𝗼𝘃𝗶𝗲𝘀 𝗚𝗿𝗼𝘂𝗽🌟', url='https://t.me/+7DcokFeX8Dk0N2Jl'),
                     InlineKeyboardButton('🔰𝐌𝐨𝐯𝐢𝐞𝐬 𝐂𝐡𝐚𝐧𝐧𝐞𝐥🔰', url='https://t.me/+ydrem2GK32k1ZTM1')
+                ],[
+                    InlineKeyboardButton('🌟𝗠𝗼𝘃𝗶𝗲𝘀 𝗥𝗲𝗾𝘂𝗲𝘀𝘁 𝗚𝗿𝗼𝘂𝗽🌟', url='https://t.me/+7DcokFeX8Dk0N2Jl')
                 ],[
                     InlineKeyboardButton('〄 Hᴇʟᴘ', callback_data='help'),
                     InlineKeyboardButton('⍟ Aʙᴏᴜᴛ', callback_data='about')
@@ -104,8 +106,9 @@ async def start(client, message):
                     InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
                     InlineKeyboardButton('🤖𝐁𝐨𝐭𝐬 𝐔𝐩𝐝𝐚𝐭𝐞🤖', url='https://t.me/KMZoneOfficial'),
-                    InlineKeyboardButton('🌟𝗠𝗼𝘃𝗶𝗲𝘀 𝗚𝗿𝗼𝘂𝗽🌟', url='https://t.me/+7DcokFeX8Dk0N2Jl'),
                     InlineKeyboardButton('🔰𝐌𝐨𝐯𝐢𝐞𝐬 𝐂𝐡𝐚𝐧𝐧𝐞𝐥🔰', url='https://t.me/+ydrem2GK32k1ZTM1')
+                ],[
+                    InlineKeyboardButton('🌟𝗠𝗼𝘃𝗶𝗲𝘀 𝗥𝗲𝗾𝘂𝗲𝘀𝘁 𝗚𝗿𝗼𝘂𝗽🌟', url='https://t.me/+7DcokFeX8Dk0N2Jl')
                 ],[
                     InlineKeyboardButton('〄 Hᴇʟᴘ', callback_data='help'),
                     InlineKeyboardButton('⍟ Aʙᴏᴜᴛ', callback_data='about')
