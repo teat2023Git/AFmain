@@ -920,7 +920,7 @@ async def requests(bot, message):
                 InlineKeyboardButton('🔰Join Channel🔰', url=link.invite_link),
                 InlineKeyboardButton('↖️View Request↗️', url=f"{reported_post.link}")
               ]]
-        await message.reply_text("<b>Your request has been added! Please wait for some time.\n\nJoin Channel First & View Request</b>", reply_markup=InlineKeyboardMarkup(btn))
+        await message.reply_text("<b>𝐘𝐨𝐮𝐫 𝐫𝐞𝐪𝐮𝐞𝐬𝐭 𝐌𝐨𝐯𝐢𝐞 𝐡𝐚𝐬 𝐛𝐞𝐞𝐧 𝐚𝐝𝐝𝐞𝐝! 𝐢𝐧 𝐦𝐲 𝐂𝐡𝐚𝐧𝐧𝐞𝐥. 𝐏𝐥𝐞𝐚𝐬𝐞 𝐤𝐞𝐞𝐩 𝐬𝐨𝐦𝐞 𝐩𝐚𝐭𝐢𝐞𝐧𝐜𝐞!. 𝐀𝐝𝐦𝐢𝐧 𝐰𝐢𝐥𝐥 𝐮𝐩𝐥𝐨𝐚𝐝 𝐢𝐭 𝐚𝐬 𝐬𝐨𝐨𝐧 𝐚𝐬 𝐩𝐨𝐬𝐬𝐢𝐛𝐥𝐞✅. \n𝘐 𝘸𝘪𝘭𝘭 𝘯𝘰𝘵𝘪𝘧𝘺 𝘺𝘰𝘶 𝘪𝘯 𝘮𝘺 𝘗𝘔( 𝘤𝘩𝘦𝘤𝘬 𝘉𝘰𝘵 𝘗𝘔). \n\n𝗝𝗼𝗶𝗻 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 𝗙𝗶𝗿𝘀𝘁👇🏻 & 𝗩𝗶𝗲𝘄 𝗥𝗲𝗾𝘂𝗲𝘀𝘁.</b>", reply_markup=InlineKeyboardMarkup(btn))
     
 @Client.on_message(filters.command("send") & filters.user(ADMINS))
 async def send_msg(bot, message):
