@@ -48,7 +48,7 @@ SPELL_CHECK = {}
 
 @Client.on_message(filters.group & filters.text & filters.incoming)
 async def give_filter(client, message):
-    if message.chat.id != SUPPORT_CHAT_ID:
+    if message.chat.id != -1001907794132:
         manual = await manual_filters(client, message)
         if manual == False:
             settings = await get_settings(message.chat.id)
