@@ -1144,7 +1144,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data.startswith("unavailable"):
         ident, from_user = query.data.split("#")
         btn = [[
-                InlineKeyboardButton("⚠️ Uɴᴀᴠᴀɪʟᴀʙʟᴇ ⚠️", callback_data=f"unalert#{from_user}")
+                InlineKeyboardButton("⚠️ Uɴᴀᴠᴀɪʟᴀʙʟᴇ ⚠️", callback_data=f"unalert#{from_user}"),
+                InlineKeyboardButton(text=f"🗑 Delete Log ❌", callback_data = "close_data")
               ]]
         btn2 = [[
                  InlineKeyboardButton('🔰Jᴏɪɴ Cʜᴀɴɴᴇʟ🔰', url=link.invite_link),
@@ -1975,7 +1976,7 @@ async def auto_filter(client, msg, spoll=False):
             files, offset, total_results = await get_search_results(message.chat.id ,search, offset=0, filter=True)
             settings = await get_settings(message.chat.id)
             if not files:
-                await client.send_message(req_channel,f"-🦋 #REQUESTED_CONTENT 🦋-\n\n📝Content Name :{search}\nRequested By: {message.from_user.first_name}\n USER ID:{user_id}\n\n🗃️",
+                await client.send_message(req_channel,f"-🦋 #REQUESTED_CONTENT 🦋-\n\n📝Content Name :{search}\nRequested By: {message.from_user.first_name}\n USER ID:{user_id}\n\n🗃️",)
                 await m.delete()
                 if settings["spell_check"]:
                     return await advantage_spell_chok(client, msg)
