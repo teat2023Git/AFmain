@@ -6,7 +6,7 @@ Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 
     ABOUT_TXT = """<b>⍟───[ MY ᴅᴇᴛᴀɪʟꜱ ]───⍟
 ‣ ᴍʏ ɴᴀᴍᴇ : <a href=http://t.me/KMZoneMBot>𝗔𝗻𝗼𝗻𝘆𝗺𝗼𝘂𝘀 𝗠𝗼𝘃𝗶𝗲𝘀 𝗕𝗼𝘁</a>
- ‣ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href='tg://settings'>ⁱᵗᶻ ᵐᵉ ᵗᵍ 🇮🇳</a> 
+ ‣ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href='tg://settings'>𝐌𝐫. 𝐀𝐧𝐨𝐧𝐲𝐦𝐨𝐮𝐬 😎</a> 
  ‣ ʟɪʙʀᴀʀʏ : <a href='https://docs.pyrogram.org/'>ᴘʏʀᴏɢʀᴀᴍ</a> 
  ‣ ʟᴀɴɢᴜᴀɢᴇ : <a href='https://www.python.org/download/releases/3.0/'>ᴘʏᴛʜᴏɴ 3</a> 
  ‣ ᴅᴀᴛᴀ ʙᴀsᴇ : <a href='https://www.mongodb.com/'>ᴍᴏɴɢᴏ ᴅʙ</a> 
@@ -65,7 +65,7 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
     EXTRAMOD_TXT = """ʜᴇʟᴘ: Exᴛʀᴀ Mᴏᴅᴜʟᴇs
 <b>ɴᴏᴛᴇ:</b>
 my features Stay here new features coming soon...  
- <b>✯ Maintained by : <a href=https://t.me/KMZONE2023>☢K M ZONE UPDATES☢</a></b>
+ <b>✯ Maintained by : <a href=https://t.me/KMZONE2023>☢K M ZONE Bot UPDATES☢</a></b>
   
  <b>✯ Join here : <a href=https://t.me/KMCLUB2023>☢Join my MOVIE Updates Channel ☢</a></b> 
   
@@ -117,7 +117,8 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
     LOG_TEXT_G = """#NewGroup
 Gʀᴏᴜᴘ = {}(<code>{}</code>)
 Tᴏᴛᴀʟ Mᴇᴍʙᴇʀs = <code>{}</code>
-Aᴅᴅᴇᴅ Bʏ - {}"""
+Aᴅᴅᴇᴅ Bʏ - {}
+User ID - <code>{}</code>"""
 
     LOG_TEXT_P = """#NewUser
 ID - <code>{}</code>
@@ -152,12 +153,32 @@ Nᴀᴍᴇ - {}"""
 › Asur sᴇᴀsᴏɴ 1 ❌
 › Asur ᴡᴇʙ sᴇʀɪᴇs ❌
 
-🚯 ᴅᴏɴᴛ ᴜꜱᴇ ➠ ':(!,./ season, Movie please)</b>"""
+🚯 ᴅᴏɴᴛ ᴜꜱᴇ ➠ ':(!,./ season, Movie please)</b>
+
+𝐈𝐟 𝐘𝐨𝐮 𝐂𝐚𝐧 𝐍𝐨𝐭 𝐆𝐞𝐭 𝐘𝐨𝐮𝐫 𝐌𝐨𝐯𝐢𝐞 𝐉𝐮𝐬𝐭 𝐮𝐬𝐞 𝐓𝐡𝐢𝐬 𝐜𝐨𝐦𝐦𝐚𝐧𝐝: /request or /Request or #request or #Request 𝐭𝐡𝐞𝐧 𝐠𝐢𝐯𝐞 𝐚 𝐬𝐩𝐚𝐜𝐞 𝐭𝐡𝐞𝐧 𝐭𝐲𝐩𝐞 𝐲𝐨𝐮𝐫 𝐦𝐨𝐯𝐢𝐞 𝐧𝐚𝐦𝐞.
+"""
 
     I_CUD_NT = """ɪ ᴄᴏᴜʟᴅɴ'ᴛ ꜰɪɴᴅ ᴀɴʏ ᴍᴏᴠɪᴇ ʀᴇʟᴀᴛᴇᴅ ᴛᴏ {}.
-ᴘʟᴇᴀꜱᴇ ᴄʜᴇᴄᴋ ᴛʜᴇ ꜱᴘᴇʟʟɪɴɢ ᴏɴ ɢᴏᴏɢʟᴇ ᴏʀ ɪᴍᴅʙ..."""
+ᴘʟᴇᴀꜱᴇ ᴄʜᴇᴄᴋ ᴛʜᴇ ꜱᴘᴇʟʟɪɴɢ ᴏɴ ɢᴏᴏɢʟᴇ ᴏʀ ɪᴍᴅʙ...
 
-    MVE_NT_FND = """ᴍᴏᴠɪᴇ ɴᴏᴛ ꜰᴏᴜɴᴅ ɪɴ ᴅᴀᴛᴀʙᴀꜱᴇ..."""
+🔹 Sᴇᴀʀᴄʜ Mᴏᴠɪᴇ Wɪᴛʜ Cᴏʀʀᴇᴄᴛ Sᴘᴇʟʟɪɴɢ :
+› King Of Kotha 2023 ✅
+› King Of Kotha ʜɪɴᴅɪ ✅
+› King Of Kotha ᴍᴏᴠɪᴇ ❌
+› King Of Kotha ʜɪɴᴅɪ ᴅᴜʙʙᴇᴅ..❌
+
+🔹Sᴇᴀʀᴄʜ Wᴇʙ Sᴇʀɪᴇs Iɴ ᴛʜɪs Fᴏʀᴍᴀᴛᴇ : 
+› Asur S01 ✅
+› Asur S01E01 ✅
+› Asur S01 ʜɪɴᴅɪ ✅
+› Asur S01 ʜɪɴᴅɪ ᴅᴜʙʙ. ❌
+› Asur sᴇᴀsᴏɴ 1 ❌
+› Asur ᴡᴇʙ sᴇʀɪᴇs ❌
+
+𝐈𝐟 𝐘𝐨𝐮 𝐂𝐚𝐧 𝐍𝐨𝐭 𝐆𝐞𝐭 𝐘𝐨𝐮𝐫 𝐌𝐨𝐯𝐢𝐞 𝐉𝐮𝐬𝐭 𝐮𝐬𝐞 𝐓𝐡𝐢𝐬 𝐜𝐨𝐦𝐦𝐚𝐧𝐝: 𝐈𝐟 𝐘𝐨𝐮 𝐂𝐚𝐧 𝐍𝐨𝐭 𝐆𝐞𝐭 𝐘𝐨𝐮𝐫 𝐌𝐨𝐯𝐢𝐞 𝐉𝐮𝐬𝐭 𝐮𝐬𝐞 𝐓𝐡𝐢𝐬 𝐜𝐨𝐦𝐦𝐚𝐧𝐝: /request or /Request or #request or #Request 𝐭𝐡𝐞𝐧 𝐠𝐢𝐯𝐞 𝐚 𝐬𝐩𝐚𝐜𝐞 𝐭𝐡𝐞𝐧 𝐭𝐲𝐩𝐞 𝐲𝐨𝐮𝐫 𝐦𝐨𝐯𝐢𝐞 𝐧𝐚𝐦𝐞.
+"""
+
+    MVE_NT_FND = """ᴍᴏᴠɪᴇ ɴᴏᴛ ꜰᴏᴜɴᴅ ɪɴ ᴅᴀᴛᴀʙᴀꜱᴇ😔...Dᴏɴ'ᴛ ᴡᴏʀʀʏ Aᴅᴍɪɴ Wɪʟʟ Uᴘʟᴏᴀᴅ ʏᴏᴜʀ Mᴏᴠɪᴇ Sᴏᴏɴ😃..."""
 
     TOP_ALRT_MSG = """Cʜᴇᴄᴋɪɴɢ Fᴏʀ Mᴏᴠɪᴇ Iɴ Dᴀᴛᴀʙᴀsᴇ..."""
 
