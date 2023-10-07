@@ -1975,8 +1975,8 @@ async def auto_filter(client, msg, spoll=False):
             files, offset, total_results = await get_search_results(message.chat.id ,search, offset=0, filter=True)
             settings = await get_settings(message.chat.id)
             if not files:
-                await client.send_message(LOG_CHANNEL,f"-☀️ #REQUESTED_CONTENT ☀️-\n\n📝Content Name :{search}\nRequested By: {message.from_user.first_name}\n USER ID:{user_id}\n\n🗃️",)
                 await m.delete()
+                await client.send_message(LOG_CHANNEL,f"-☀️ #REQUESTED_CONTENT ☀️-\n\n📝Content Name :{search}\nRequested By: {message.from_user.first_name}\n USER ID:{user_id}\n\n🗃️",)
                 if settings["spell_check"]:
                     return await advantage_spell_chok(client, msg)
                 else:
