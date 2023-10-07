@@ -214,7 +214,7 @@ Tɪᴘ: Sᴇʟᴇᴄᴛ "Lᴀɴɢᴜᴀɢᴇs" ᴏʀ "Sᴇᴀsᴏɴs" Bᴜᴛᴛ
 
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
-    CAPTION = """<b>📂Fɪʟᴇɴᴀᴍᴇ : <a href=https://t.me/KMZoneOfficial>{f_caption}</a></b>
+    CAPTION = """<b>📂Fɪʟᴇɴᴀᴍᴇ : <a href=https://t.me/KMZoneOfficial>{title}</a></b>
 
 <b> Size ⚙️: {file_size}
 📀 RunTime: {runtime} Minutes</b>""" 
