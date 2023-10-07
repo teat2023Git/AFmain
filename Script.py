@@ -216,8 +216,7 @@ Tɪᴘ: Sᴇʟᴇᴄᴛ "Lᴀɴɢᴜᴀɢᴇs" ᴏʀ "Sᴇᴀsᴏɴs" Bᴜᴛᴛ
 
     CAPTION = """<b>📂Fɪʟᴇɴᴀᴍᴇ : <a href=https://t.me/KMZoneOfficial>{file_name}</a></b>
 
-<b> Size ⚙️: {file_size}
-📀 RunTime: {runtime} Minutes</b>""" 
+<b> Size ⚙️: {file_size}</b>""" 
 
     IMDB_TEMPLATE_TXT = """
 <b>Query: {qurey}
