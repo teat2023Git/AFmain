@@ -63,7 +63,7 @@ async def start(client, message):
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         m=await message.reply_sticker("CAACAgUAAxkBAAKO5mT9xRKbr58CFevi1yKJ8XvFD2JEAAL4CgACd9hQVwp1FqRNvaH7HgQ") 
-        await asyncio.sleep(1)
+        await asyncio.sleep(2)
         await m.delete()
         await message.reply_photo(
             photo=random.choice(PICS),
@@ -850,7 +850,7 @@ async def requests(bot, message):
                         InlineKeyboardButton('↖️View Request↗️', url=f"{message.reply_to_message.link}"),
                         InlineKeyboardButton('♻️Show Options♻️', callback_data=f'show_option#{reporter}')
                       ]]
-                reported_post = await bot.send_message(chat_id=REQST_CHANNEL, text=f"<b>𝖱𝖾𝗉𝗈𝗋𝗍𝖾𝗋 : {mention} ({reporter})\n\n𝖬𝖾𝗌𝗌𝖺𝗀𝖾 : `{content}`</b>", reply_markup=InlineKeyboardMarkup(btn))
+                reported_post = await bot.send_message(chat_id=REQST_CHANNEL, text=f"<b>😎𝖱𝖾𝗉𝗈𝗋𝗍𝖾𝗋 : {mention} ({reporter})\n\n🌟𝖬𝖾𝗌𝗌𝖺𝗀𝖾 : `{content}`</b>", reply_markup=InlineKeyboardMarkup(btn))
                 success = True
             elif len(content) >= 3:
                 for admin in ADMINS:
@@ -858,11 +858,11 @@ async def requests(bot, message):
                         InlineKeyboardButton('↖️View Request↗️', url=f"{message.reply_to_message.link}"),
                         InlineKeyboardButton('♻️Show Options♻️', callback_data=f'show_option#{reporter}')
                       ]]
-                    reported_post = await bot.send_message(chat_id=admin, text=f"<b>𝖱𝖾𝗉𝗈𝗋𝗍𝖾𝗋 : {mention} ({reporter})\n\n𝖬𝖾𝗌𝗌𝖺𝗀𝖾 : `{content}`</b>", reply_markup=InlineKeyboardMarkup(btn))
+                    reported_post = await bot.send_message(chat_id=admin, text=f"<b>😎𝖱𝖾𝗉𝗈𝗋𝗍𝖾𝗋 : {mention} ({reporter})\n\n🌟𝖬𝖾𝗌𝗌𝖺𝗀𝖾 : `{content}`</b>", reply_markup=InlineKeyboardMarkup(btn))
                     success = True
             else:
                 if len(content) < 3:
-                    await message.reply_text("<b>𝐈𝐟 𝐘𝐨𝐮 𝐂𝐚𝐧 𝐍𝐨𝐭 𝐆𝐞𝐭 𝐘𝐨𝐮𝐫 𝐌𝐨𝐯𝐢𝐞 𝐉𝐮𝐬𝐭 𝐮𝐬𝐞 𝐓𝐡𝐢𝐬 𝐜𝐨𝐦𝐦𝐚𝐧𝐝: /request or /Request or #request or #Request 𝐭𝐡𝐞𝐧 𝐠𝐢𝐯𝐞 𝐚 𝐬𝐩𝐚𝐜𝐞 𝐭𝐡𝐞𝐧 𝐭𝐲𝐩𝐞 𝐲𝐨𝐮𝐫 𝐦𝐨𝐯𝐢𝐞 𝐧𝐚𝐦𝐞. \n\n𝑌𝑜𝑢 𝑚𝑢𝑠𝑡 𝑡𝑦𝑝𝑒 𝑎𝑏𝑜𝑢𝑡 𝑦𝑜𝑢𝑟 𝑟𝑒𝑞𝑢𝑒𝑠𝑡 [𝑀𝑖𝑛𝑖𝑚𝑢𝑚 3 𝐶ℎ𝑎𝑟𝑎𝑐𝑡𝑒𝑟𝑠]. 𝑅𝑒𝑞𝑢𝑒𝑠𝑡𝑠 𝑚𝑜𝑣𝑖𝑒 𝑐𝑎𝑛'𝑡 𝑏𝑒 𝑒𝑚𝑝𝑡𝑦.</b>")
+                    await message.reply_text("<b>📌☣️𝐈𝐟 𝐘𝐨𝐮 𝐂𝐚𝐧 𝐍𝐨𝐭 𝐆𝐞𝐭 𝐘𝐨𝐮𝐫 𝐌𝐨𝐯𝐢𝐞 𝐉𝐮𝐬𝐭 𝐮𝐬𝐞 𝐓𝐡𝐢𝐬 𝐜𝐨𝐦𝐦𝐚𝐧𝐝: /request or /Request or #request or #Request 𝐭𝐡𝐞𝐧 𝐠𝐢𝐯𝐞 𝐚 𝐬𝐩𝐚𝐜𝐞 𝐭𝐡𝐞𝐧 𝐭𝐲𝐩𝐞 𝐲𝐨𝐮𝐫 𝐦𝐨𝐯𝐢𝐞 𝐧𝐚𝐦𝐞. \n\n𝑌𝑜𝑢 𝑚𝑢𝑠𝑡 𝑡𝑦𝑝𝑒 𝑎𝑏𝑜𝑢𝑡 𝑦𝑜𝑢𝑟 𝑟𝑒𝑞𝑢𝑒𝑠𝑡 [𝑀𝑖𝑛𝑖𝑚𝑢𝑚 3 𝐶ℎ𝑎𝑟𝑎𝑐𝑡𝑒𝑟𝑠]. 𝑅𝑒𝑞𝑢𝑒𝑠𝑡𝑠 𝑚𝑜𝑣𝑖𝑒 𝑐𝑎𝑛'𝑡 𝑏𝑒 𝑒𝑚𝑝𝑡𝑦.</b>")
             if len(content) < 3:
                 success = False
         except Exception as e:
@@ -885,7 +885,7 @@ async def requests(bot, message):
                         InlineKeyboardButton('↖️View Request↗️', url=f"{message.link}"),
                         InlineKeyboardButton('♻️Show Options♻️', callback_data=f'show_option#{reporter}')
                       ]]
-                reported_post = await bot.send_message(chat_id=REQST_CHANNEL, text=f"<b>𝖱𝖾𝗉𝗈𝗋𝗍𝖾𝗋 : {mention} ({reporter})\n\n𝖬𝖾𝗌𝗌𝖺𝗀𝖾 : {content}</b>", reply_markup=InlineKeyboardMarkup(btn))
+                reported_post = await bot.send_message(chat_id=REQST_CHANNEL, text=f"<b>😎𝖱𝖾𝗉𝗈𝗋𝗍𝖾𝗋 : {mention} ({reporter})\n\n🌟𝖬𝖾𝗌𝗌𝖺𝗀𝖾 : {content}</b>", reply_markup=InlineKeyboardMarkup(btn))
                 success = True
             elif len(content) >= 3:
                 for admin in ADMINS:
@@ -893,11 +893,11 @@ async def requests(bot, message):
                         InlineKeyboardButton('↖️View Request↗️', url=f"{message.link}"),
                         InlineKeyboardButton('♻️Show Options♻️', callback_data=f'show_option#{reporter}')
                       ]]
-                    reported_post = await bot.send_message(chat_id=admin, text=f"<b>𝖱𝖾𝗉𝗈𝗋𝗍𝖾𝗋 : {mention} ({reporter})\n\n𝖬𝖾𝗌𝗌𝖺𝗀𝖾 : {content}</b>", reply_markup=InlineKeyboardMarkup(btn))
+                    reported_post = await bot.send_message(chat_id=admin, text=f"<b>😎𝖱𝖾𝗉𝗈𝗋𝗍𝖾𝗋 : {mention} ({reporter})\n\n🌟𝖬𝖾𝗌𝗌𝖺𝗀𝖾 : {content}</b>", reply_markup=InlineKeyboardMarkup(btn))
                     success = True
             else:
                 if len(content) < 3:
-                    await message.reply_text("<b>𝐈𝐟 𝐘𝐨𝐮 𝐂𝐚𝐧 𝐍𝐨𝐭 𝐆𝐞𝐭 𝐘𝐨𝐮𝐫 𝐌𝐨𝐯𝐢𝐞 𝐉𝐮𝐬𝐭 𝐮𝐬𝐞 𝐓𝐡𝐢𝐬 𝐜𝐨𝐦𝐦𝐚𝐧𝐝: /request or /Request or #request or #Request 𝐭𝐡𝐞𝐧 𝐠𝐢𝐯𝐞 𝐚 𝐬𝐩𝐚𝐜𝐞 𝐭𝐡𝐞𝐧 𝐭𝐲𝐩𝐞 𝐲𝐨𝐮𝐫 𝐦𝐨𝐯𝐢𝐞 𝐧𝐚𝐦𝐞. \n\n𝑌𝑜𝑢 𝑚𝑢𝑠𝑡 𝑡𝑦𝑝𝑒 𝑎𝑏𝑜𝑢𝑡 𝑦𝑜𝑢𝑟 𝑟𝑒𝑞𝑢𝑒𝑠𝑡 [𝑀𝑖𝑛𝑖𝑚𝑢𝑚 3 𝐶ℎ𝑎𝑟𝑎𝑐𝑡𝑒𝑟𝑠]. 𝑅𝑒𝑞𝑢𝑒𝑠𝑡𝑠 𝑚𝑜𝑣𝑖𝑒 𝑐𝑎𝑛'𝑡 𝑏𝑒 𝑒𝑚𝑝𝑡𝑦.</b>")
+                    await message.reply_text("<b>📌☣️𝐈𝐟 𝐘𝐨𝐮 𝐂𝐚𝐧 𝐍𝐨𝐭 𝐆𝐞𝐭 𝐘𝐨𝐮𝐫 𝐌𝐨𝐯𝐢𝐞 𝐉𝐮𝐬𝐭 𝐮𝐬𝐞 𝐓𝐡𝐢𝐬 𝐜𝐨𝐦𝐦𝐚𝐧𝐝: /request or /Request or #request or #Request 𝐭𝐡𝐞𝐧 𝐠𝐢𝐯𝐞 𝐚 𝐬𝐩𝐚𝐜𝐞 𝐭𝐡𝐞𝐧 𝐭𝐲𝐩𝐞 𝐲𝐨𝐮𝐫 𝐦𝐨𝐯𝐢𝐞 𝐧𝐚𝐦𝐞. \n\n𝑌𝑜𝑢 𝑚𝑢𝑠𝑡 𝑡𝑦𝑝𝑒 𝑎𝑏𝑜𝑢𝑡 𝑦𝑜𝑢𝑟 𝑟𝑒𝑞𝑢𝑒𝑠𝑡 [𝑀𝑖𝑛𝑖𝑚𝑢𝑚 3 𝐶ℎ𝑎𝑟𝑎𝑐𝑡𝑒𝑟𝑠]. 𝑅𝑒𝑞𝑢𝑒𝑠𝑡𝑠 𝑚𝑜𝑣𝑖𝑒 𝑐𝑎𝑛'𝑡 𝑏𝑒 𝑒𝑚𝑝𝑡𝑦.</b>")
             if len(content) < 3:
                 success = False
         except Exception as e:
@@ -920,7 +920,7 @@ async def requests(bot, message):
                 InlineKeyboardButton('🔰Join Channel🔰', url=link.invite_link),
                 InlineKeyboardButton('↖️View Request↗️', url=f"{reported_post.link}")
               ]]
-        await message.reply_text("<b>𝐘𝐨𝐮𝐫 𝐫𝐞𝐪𝐮𝐞𝐬𝐭 𝐌𝐨𝐯𝐢𝐞 𝐡𝐚𝐬 𝐛𝐞𝐞𝐧 𝐚𝐝𝐝𝐞𝐝! 𝐢𝐧 𝐦𝐲 𝐂𝐡𝐚𝐧𝐧𝐞𝐥. 𝐏𝐥𝐞𝐚𝐬𝐞 𝐤𝐞𝐞𝐩 𝐬𝐨𝐦𝐞 𝐩𝐚𝐭𝐢𝐞𝐧𝐜𝐞!. 𝐀𝐝𝐦𝐢𝐧 𝐰𝐢𝐥𝐥 𝐮𝐩𝐥𝐨𝐚𝐝 𝐢𝐭 𝐚𝐬 𝐬𝐨𝐨𝐧 𝐚𝐬 𝐩𝐨𝐬𝐬𝐢𝐛𝐥𝐞✅. \n𝘐 𝘸𝘪𝘭𝘭 𝘯𝘰𝘵𝘪𝘧𝘺 𝘺𝘰𝘶 𝘪𝘯 𝘮𝘺 𝘗𝘔( 𝘤𝘩𝘦𝘤𝘬 𝘉𝘰𝘵 𝘗𝘔). \n\n𝗝𝗼𝗶𝗻 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 𝗙𝗶𝗿𝘀𝘁👇🏻 & 𝗩𝗶𝗲𝘄 𝗥𝗲𝗾𝘂𝗲𝘀𝘁.</b>", reply_markup=InlineKeyboardMarkup(btn))
+        await message.reply_text("<b>📌☣️𝐘𝐨𝐮𝐫 𝐫𝐞𝐪𝐮𝐞𝐬𝐭 𝐌𝐨𝐯𝐢𝐞 𝐡𝐚𝐬 𝐛𝐞𝐞𝐧 𝐚𝐝𝐝𝐞𝐝! 𝐢𝐧 𝐦𝐲 𝐂𝐡𝐚𝐧𝐧𝐞𝐥. 𝐏𝐥𝐞𝐚𝐬𝐞 𝐤𝐞𝐞𝐩 𝐬𝐨𝐦𝐞 𝐩𝐚𝐭𝐢𝐞𝐧𝐜𝐞!. 𝐀𝐝𝐦𝐢𝐧 𝐰𝐢𝐥𝐥 𝐮𝐩𝐥𝐨𝐚𝐝 𝐢𝐭 𝐚𝐬 𝐬𝐨𝐨𝐧 𝐚𝐬 𝐩𝐨𝐬𝐬𝐢𝐛𝐥𝐞✅. \n𝘐 𝘸𝘪𝘭𝘭 𝘯𝘰𝘵𝘪𝘧𝘺 𝘺𝘰𝘶 𝘪𝘯 𝘮𝘺 𝘗𝘔( 𝘤𝘩𝘦𝘤𝘬 𝘉𝘰𝘵 𝘗𝘔). \n\n𝗝𝗼𝗶𝗻 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 𝗙𝗶𝗿𝘀𝘁👇🏻 & 𝗩𝗶𝗲𝘄 𝗥𝗲𝗾𝘂𝗲𝘀𝘁.</b>", reply_markup=InlineKeyboardMarkup(btn))
     
 @Client.on_message(filters.command("send") & filters.user(ADMINS))
 async def send_msg(bot, message):
